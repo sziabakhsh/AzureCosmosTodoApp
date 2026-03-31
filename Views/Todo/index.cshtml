@@ -1,0 +1,20 @@
+@model List<AzureCosmosTodoApp.Models.TodoItem>
+
+<h2>Todo List</h2>
+
+<form asp-action="Create" method="post">
+    <input type="text" name="title" placeholder="New Todo" required />
+    <button type="submit">Add</button>
+</form>
+
+<ul>
+@foreach (var item in Model)
+{
+    <li>
+        @item.Title
+        
+        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+    </li>
+}
+</ul>
