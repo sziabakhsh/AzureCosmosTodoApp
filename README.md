@@ -1,25 +1,49 @@
-Azure Cosmos DB Todo MVC App
+# Azure Cosmos DB Todo MVC App
 
-A lightweight ASP.NET Core 8 MVC Todo app using Azure Cosmos DB (NoSQL) for CRUD operations. Perfect for learning, free-tier friendly, and ready for Azure deployment.
+A modern ASP.NET Core 8 MVC web application built with Azure Cosmos DB for scalable NoSQL data storage and CRUD operations.
 
-🚀 Features
-✅ Create, Read, Update, Delete Todo items
-✅ Repository Pattern for clean architecture
-✅ MVC pattern (Controllers, Views, Models)
-✅ Cosmos DB integration with secure keys
-✅ Easy to deploy to Azure App Service
-🛠 Prerequisites
-.NET 8 SDK
-Azure account for Cosmos DB
-Visual Studio 2022, VS Code, or any C# IDE
-⚡ Setup & Run
-1️⃣ Clone the repo
+This project demonstrates backend-focused development practices using clean architecture principles, repository pattern implementation, and cloud-ready application design with Microsoft Azure services.
+
+## 🚀 Features
+
+* Create, Read, Update, and Delete Todo items
+* Azure Cosmos DB integration
+* ASP.NET Core 8 MVC architecture
+* Repository Pattern implementation
+* Clean and maintainable code structure
+* Cloud-ready deployment support
+* Responsive and lightweight UI
+
+## 🛠 Technologies Used
+
+* ASP.NET Core 8
+* C#
+* Azure Cosmos DB
+* MVC Pattern
+* Entity Framework Core
+* Azure App Service
+
+## 📦 Prerequisites
+
+* .NET 8 SDK
+* Azure account with Cosmos DB enabled
+* Visual Studio 2022 / VS Code
+
+## ⚡ Setup & Run
+
+### 1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/sziabakhsh/AzureCosmosTodoApp.git
 cd AzureCosmosTodoApp
-2️⃣ Configure Azure Cosmos DB
-Database: TodoDB
-Container: Todos
-Partition Key: /id
+```
+
+### 2️⃣ Configure Azure Cosmos DB
+
+* Database: `TodoDB`
+* Container: `Todos`
+* Partition Key: `/id`
+
 
 Make sure names match appsettings.json.
 
